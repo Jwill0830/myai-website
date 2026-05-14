@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Solas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#080810;--bg2:#0E0E1A;--border:rgba(255,255,255,0.08);--border2:rgba(255,255,255,0.12);--text:#F0EFF8;--text2:rgba(240,239,248,0.55);--text3:rgba(240,239,248,0.30);--accent:#0A84FF;--green:#30D158;--serif:'Instrument Serif',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:20px 48px;background:rgba(8,8,16,0.88);backdrop-filter:blur(24px);border-bottom:0.5px solid var(--border)}
+.nav-logo{font-family:var(--serif);font-size:22px;color:var(--text);text-decoration:none}
+.nav-back{font-size:14px;color:var(--text2);text-decoration:none;transition:color 0.2s}
+.nav-back:hover{color:var(--text)}
+.content{max-width:780px;margin:0 auto;padding:140px 40px 100px}
+h1{font-family:var(--serif);font-size:clamp(40px,6vw,60px);letter-spacing:-1.5px;line-height:1.08;margin-bottom:12px}
+.hero-sub{font-size:18px;color:var(--text2);font-weight:300;margin-bottom:56px}
+.contact-card{background:var(--bg2);border:0.5px solid var(--border2);border-radius:20px;padding:32px;margin-bottom:48px;display:flex;gap:24px;align-items:flex-start}
+.contact-icon{width:48px;height:48px;border-radius:14px;background:rgba(10,132,255,0.12);display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.contact-label{font-size:12px;font-weight:600;letter-spacing:0.8px;color:var(--text3);text-transform:uppercase;margin-bottom:6px}
+.contact-value{font-size:18px;font-weight:500;margin-bottom:6px}
+.contact-value a{color:var(--accent);text-decoration:none}
+.contact-value a:hover{text-decoration:underline}
+.contact-note{font-size:14px;color:var(--text2);font-weight:300}
+h2{font-size:22px;font-weight:500;margin-bottom:20px;font-family:var(--serif);letter-spacing:-0.5px}
+.faq{display:flex;flex-direction:column;gap:0;margin-bottom:56px;border:0.5px solid var(--border);border-radius:16px;overflow:hidden}
+.faq-item{border-bottom:0.5px solid var(--border);overflow:hidden}
+.faq-item:last-child{border-bottom:none}
+.faq-q{width:100%;background:none;border:none;padding:20px 24px;text-align:left;font-size:15px;font-weight:500;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:16px;font-family:var(--sans);transition:background 0.2s}
+.faq-q:hover{background:rgba(255,255,255,0.03)}
+.faq-arrow{color:var(--text3);font-size:18px;transition:transform 0.25s;flex-shrink:0}
+.faq-a{max-height:0;overflow:hidden;transition:max-height 0.3s ease,padding 0.3s ease}
+.faq-a-inner{padding:0 24px 20px;font-size:14px;color:var(--text2);font-weight:300;line-height:1.7}
+.faq-item.open .faq-arrow{transform:rotate(180deg)}
+.faq-item.open .faq-a{max-height:300px}
+.in-app-note{background:rgba(48,209,88,0.08);border:0.5px solid rgba(48,209,88,0.2);border-radius:14px;padding:24px;margin-bottom:48px}
+.in-app-note p{color:var(--text);margin:0;font-weight:400;font-size:15px}
+.in-app-note strong{color:var(--green)}
+footer{border-top:0.5px solid var(--border);padding:32px 48px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;max-width:1120px;margin:0 auto}
+.footer-logo{font-family:var(--serif);font-size:16px;color:var(--text2)}
+.footer-links{display:flex;gap:24px}
+.footer-links a{font-size:13px;color:var(--text3);text-decoration:none}
+.footer-links a:hover{color:var(--text2)}
+@media(max-width:768px){nav{padding:16px 20px}.content{padding:110px 20px 80px}.contact-card{flex-direction:column;gap:16px}footer{padding:24px 20px;flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">Solas</a>
+  <a href="/" class="nav-back">← Back to home</a>
+</nav>
+
+<div class="content">
+  <h1>Support</h1>
+  <p class="hero-sub">We're a small team. Every message goes directly to the founder.</p>
+
+  <div class="in-app-note">
+    <p><strong>Fastest way to reach us:</strong> Open Solas → Profile → Send Feedback. Your message lands directly in our inbox with useful context about your account and device.</p>
+  </div>
+
+  <div class="contact-card">
+    <div class="contact-icon">✉️</div>
+    <div>
+      <div class="contact-label">Email support</div>
+      <div class="contact-value"><a href="mailto:jack@trysolasapp.com">jack@trysolasapp.com</a></div>
+      <div class="contact-note">We respond within 24–48 hours, usually faster. Include your account email so we can look up your account.</div>
+    </div>
+  </div>
+
+  <h2>Common questions</h2>
+  <div class="faq">
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">How do I log a meal? <span class="faq-arrow">▾</span></button>
+      <div class="faq-a"><div class="faq-a-inner">Just describe it in plain English in the Chat tab. "I had 3 eggs, an avocado, and black coffee for breakfast" is all you need. Solas parses it, looks up the nutrition, and logs it automatically. You can also tap Log meal in the Health tab for a dedicated input.</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">How do I connect Apple Health? <span class="faq-arrow">▾</span></button>
+      <div class="faq-a"><div class="faq-a-inner">Go to Health tab → Fitness → Connected Devices → tap Apple Health. You'll be prompted to grant permissions. Once connected, your steps, sleep, heart rate, and workouts sync automatically.</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">What is the Energy Score? <span class="faq-arrow">▾</span></button>
+      <div class="faq-a"><div class="faq-a-inner">Your Energy Score is a daily number from 0–100 that synthesizes your nutrition, sleep, HRV, recovery, and activity into a single signal. A score above 75 means you're well-recovered and fueled — a good day to push hard. Below 50 means your body needs rest or better nutrition. It updates throughout the day as you log meals and as wearable data comes in.</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">How do I use an invite code? <span class="faq-arrow">▾</span></button>
+      <div class="faq-a"><div class="faq-a-inner">Create a free account, then go to Profile → Account → Enter invite code. Type in your SOLAS-BETA-XXX code and tap Apply. Your account will be upgraded to beta status with Pro features unlocked.</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">How do I cancel my Pro subscription? <span class="faq-arrow">▾</span></button>
+      <div class="faq-a"><div class="faq-a-inner">Subscriptions are managed through the App Store. Go to Settings → Apple ID → Subscriptions → Solas → Cancel. You'll keep Pro access until your current billing period ends. We don't process cancellations directly — this must be done through Apple.</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">How do I delete my account and data? <span class="faq-arrow">▾</span></button>
+      <div class="faq-a"><div class="faq-a-inner">Go to Profile → Export My Data to download everything first if you'd like a copy. Then email jack@trysolasapp.com with "Delete my account" in the subject line, and we'll permanently delete your account and all associated data within 30 days.</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">Why isn't my wearable data showing up? <span class="faq-arrow">▾</span></button>
+      <div class="faq-a"><div class="faq-a-inner">First, check that Solas has the required permissions (Settings → Privacy & Security → Health on iPhone). Then pull to refresh on the Home screen. Wearable data typically syncs within a few minutes of opening the app. If it's still not showing after 10 minutes, try disconnecting and reconnecting the device from the Health tab.</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">Is Solas a medical app? <span class="faq-arrow">▾</span></button>
+      <div class="faq-a"><div class="faq-a-inner">No. Solas is a personal wellness assistant, not a medical device. It provides general health and nutrition information to help you reach your personal goals. It does not diagnose conditions, prescribe treatments, or replace professional medical advice. Always consult a qualified healthcare provider for medical questions.</div></div>
+    </div>
+  </div>
+
+  <h2>Still need help?</h2>
+  <p style="color:var(--text2);font-weight:300;margin-bottom:8px">Email us at <a href="mailto:jack@trysolasapp.com" style="color:var(--accent)">jack@trysolasapp.com</a> and we'll get back to you within 24 hours. Please include:</p>
+  <ul style="color:var(--text2);padding-left:20px;font-weight:300;margin-bottom:0">
+    <li>Your account email address</li>
+    <li>A description of what happened</li>
+    <li>Your iPhone model and iOS version (if relevant)</li>
+    <li>Any screenshots that might help</li>
+  </ul>
+</div>
+
+<footer>
+  <div class="footer-logo">Solas</div>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/privacy">Privacy</a>
+    <a href="/terms">Terms</a>
+  </div>
+</footer>
+
+<script>
+function toggle(btn) {
+  const item = btn.closest('.faq-item');
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+</script>
+</body>
+</html>
