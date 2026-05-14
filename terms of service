@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — Solas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#080810;--bg2:#0E0E1A;--border:rgba(255,255,255,0.08);--text:#F0EFF8;--text2:rgba(240,239,248,0.55);--text3:rgba(240,239,248,0.30);--accent:#0A84FF;--serif:'Instrument Serif',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:20px 48px;background:rgba(8,8,16,0.88);backdrop-filter:blur(24px);border-bottom:0.5px solid var(--border)}
+.nav-logo{font-family:var(--serif);font-size:22px;color:var(--text);text-decoration:none}
+.nav-back{font-size:14px;color:var(--text2);text-decoration:none;transition:color 0.2s}
+.nav-back:hover{color:var(--text)}
+.content{max-width:720px;margin:0 auto;padding:140px 40px 100px}
+h1{font-family:var(--serif);font-size:clamp(40px,6vw,60px);letter-spacing:-1.5px;line-height:1.08;margin-bottom:12px}
+.updated{font-size:14px;color:var(--text3);margin-bottom:56px}
+h2{font-size:20px;font-weight:500;margin:48px 0 14px;color:var(--text)}
+p{color:var(--text2);margin-bottom:16px;font-weight:300}
+ul{color:var(--text2);padding-left:20px;margin-bottom:16px;font-weight:300}
+ul li{margin-bottom:8px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.highlight{background:rgba(255,159,10,0.08);border:0.5px solid rgba(255,159,10,0.2);border-radius:12px;padding:20px 24px;margin-bottom:32px}
+.highlight p{color:var(--text);margin:0;font-weight:400}
+footer{border-top:0.5px solid var(--border);padding:32px 48px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;max-width:1120px;margin:0 auto}
+.footer-logo{font-family:var(--serif);font-size:16px;color:var(--text2)}
+.footer-links{display:flex;gap:24px}
+.footer-links a{font-size:13px;color:var(--text3);text-decoration:none}
+.footer-links a:hover{color:var(--text2)}
+@media(max-width:768px){nav{padding:16px 20px}.content{padding:110px 20px 80px}footer{padding:24px 20px;flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">Solas</a>
+  <a href="/" class="nav-back">← Back to home</a>
+</nav>
+
+<div class="content">
+  <h1>Terms of Service</h1>
+  <p class="updated">Last updated: May 13, 2026</p>
+
+  <div class="highlight">
+    <p>Important: Solas provides general health and wellness information. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider with questions about your health.</p>
+  </div>
+
+  <h2>Acceptance of terms</h2>
+  <p>By creating an account and using Solas, you agree to these Terms of Service and our <a href="/privacy">Privacy Policy</a>. If you don't agree, please don't use the service.</p>
+
+  <h2>Who can use Solas</h2>
+  <p>You must be at least 16 years old to use Solas. By using the service, you confirm that you meet this requirement. If you're using Solas on behalf of an organization, you confirm you have authority to bind that organization to these terms.</p>
+
+  <h2>Your account</h2>
+  <p>You're responsible for keeping your account credentials secure and for all activity that occurs under your account. Use a strong, unique password. If you suspect unauthorized access, contact us immediately at <a href="mailto:jack@trysolasapp.com">jack@trysolasapp.com</a>.</p>
+  <p>One account per person. Don't share your account with others.</p>
+
+  <h2>What Solas is — and isn't</h2>
+  <p>Solas is an AI-powered health and wellness assistant. It can help you:</p>
+  <ul>
+    <li>Track nutrition, workouts, and health metrics</li>
+    <li>Understand patterns in your health data</li>
+    <li>Set and monitor personal wellness goals</li>
+    <li>Get general health and nutrition information</li>
+  </ul>
+  <p>Solas is <strong>not</strong> a medical device. It does not diagnose conditions, prescribe treatments, or replace professional medical care. The information Solas provides is for general wellness purposes only. Always consult a licensed healthcare professional for medical decisions.</p>
+
+  <h2>Acceptable use</h2>
+  <p>You agree not to:</p>
+  <ul>
+    <li>Use Solas for any unlawful purpose</li>
+    <li>Attempt to access other users' data or accounts</li>
+    <li>Reverse engineer, decompile, or attempt to extract the source code of Solas</li>
+    <li>Use automated scripts or bots to interact with the service</li>
+    <li>Share your account credentials or resell access to the service</li>
+    <li>Submit false or misleading information</li>
+    <li>Attempt to circumvent usage limits or billing systems</li>
+  </ul>
+
+  <h2>Subscriptions and billing</h2>
+  <p>Solas offers a free tier and a Pro subscription at $14.99/month. Pro subscriptions are billed monthly and renew automatically until cancelled.</p>
+  <p>You can cancel your Pro subscription at any time through the App Store. Cancellation takes effect at the end of your current billing period — you won't be charged again, and you'll retain Pro access until the period ends.</p>
+  <p>Refunds are handled according to Apple's App Store refund policy. We don't offer refunds directly — please contact Apple Support for billing issues.</p>
+
+  <h2>Your content</h2>
+  <p>You own the health data and information you provide to Solas. By using the service, you grant us a limited license to store and process your data for the sole purpose of providing and improving the Solas service. We don't claim ownership of your data and won't use it for any other purpose.</p>
+
+  <h2>Intellectual property</h2>
+  <p>Solas, including its design, code, branding, and AI systems, is owned by Jack Williams. You may not copy, reproduce, or create derivative works from any part of the service without written permission.</p>
+
+  <h2>Disclaimer of warranties</h2>
+  <p>Solas is provided "as is" without warranties of any kind. We don't guarantee that the service will be uninterrupted, error-free, or that health information provided will be accurate or complete. Use the service at your own risk.</p>
+
+  <h2>Limitation of liability</h2>
+  <p>To the maximum extent permitted by law, Solas and its creator shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the service, including but not limited to health decisions made based on information provided by Solas.</p>
+
+  <h2>Termination</h2>
+  <p>We reserve the right to suspend or terminate accounts that violate these terms. You can delete your account at any time via Profile → Export My Data, then contact us for deletion. Upon termination, your data will be deleted within 30 days.</p>
+
+  <h2>Changes to these terms</h2>
+  <p>We may update these terms as the service evolves. We'll notify you of significant changes via email or in-app notice. Continued use after changes constitutes acceptance of the updated terms.</p>
+
+  <h2>Governing law</h2>
+  <p>These terms are governed by the laws of the State of California, United States, without regard to conflict of law principles.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about these terms? Email <a href="mailto:jack@trysolasapp.com">jack@trysolasapp.com</a>.</p>
+</div>
+
+<footer>
+  <div class="footer-logo">Solas</div>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/privacy">Privacy</a>
+    <a href="/support">Support</a>
+  </div>
+</footer>
+</body>
+</html>
